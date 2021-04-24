@@ -8,6 +8,15 @@ This file is written in `Markdown`.  Any file that has the extension of `.md` is
 
 > You can find a useful cheatsheet for how to use it [here](https://www.markdownguide.org/cheat-sheet/)
 
+## !!!TO USE THIS CODE!!!
+
+You will need `git` installed, and a command line to interact with it.  I highly suggest simply installing [this](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview).  As it will already come installed with `git`, and have all the complicated shit taken care of for you.  It is very easy to do, and a good setup.  After that you will simply need to add an `SSH` key to start working with GitHub, which you can google but it is basically done like this:
+
+- open Ubuntu terminal
+- type `ssh-keygen`, hit enter, and accept the default options by hitting enter for each one
+- copy your ssh key to your clipboard, and then paste it into your ssh keys section of github.  You can view your ssh key by typing `vi ~/.ssh/id_rsa.pub` and hitting enter.
+- your SSH key is basically just using encryption (same as exact thing as your beloved crypto-currency) to prove you are who you say you are, and not let anyone else have access to your shit.  It is very very secure, and will allow you full access to your code on GitHub.  I can explain how this works at some point if you are curious, but we are not to that level yet.
+
 ---
 
 ## GitHub Collaboration Tools
